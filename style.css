@@ -1,0 +1,240 @@
+/*
+Theme Name: Bootstrap 3.1.1 Starter Wordpress theme
+Author: 3sparks llc
+Author URI: http://3sparks.net/
+Description: This is a blank bootstrap 3.1.1 theme for wordpress. Feel free to use this as a starter template for your projects.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*Wordpress editor styles start*/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900');
+
+.entry-content img {
+	margin: 0 0 1.5em 0;
+	}
+.alignleft, img.alignleft {
+	margin-right: 1.5em;
+	display: inline;
+	float: left;
+	}
+.alignright, img.alignright {
+	margin-left: 1.5em;
+	display: inline;
+	float: right;
+	}
+.aligncenter, img.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	clear: both;
+	}
+.alignnone, img.alignnone {
+	/* not sure about this one */
+	}
+.wp-caption {
+	margin-bottom: 1.5em;
+	text-align: center;
+	padding-top: 5px;
+	}
+.wp-caption img {
+	border: 0 none;
+	padding: 0;
+	margin: 0;
+	}
+.wp-caption p.wp-caption-text {
+	line-height: 1.5;
+	font-size: 10px;
+	margin: 0;
+	}
+.wp-smiley {
+	margin: 0 !important;
+	max-height: 1em;
+	}
+blockquote.left {
+	margin-right: 20px;
+	text-align: right;
+	margin-left: 0;
+	width: 33%;
+	float: left;
+	}
+blockquote.right {
+	margin-left: 20px;
+	text-align: left;
+	margin-right: 0;
+	width: 33%;
+	float: right;
+	}
+
+/*Wordpress editor styles end*/
+.navbar-default{
+	border:0px;
+    border-radius: 0px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #B388FF !important;
+    	color: white !important;
+	 font-family: 'Titillium Web', sans-serif !important;
+	  font-weight: 200 !important;
+	 font-size: 20px !important;
+
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: white !important;
+	 font-family: 'Titillium Web', sans-serif !important;
+	 font-weight: 200 !important;
+	 font-size: 20px !important;
+	 text-decoration: none !important;
+	     background-color: #B388FF !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+	    	color: white !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+background-color: rgb(0,0,0) !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none !important;
+}
+.navbar-toggle{
+	border-color: rgb(0,0,0) !important;
+}
+p{
+      font-family: 'Titillium Web', sans-serif;
+font-weight: 400;
+font-size: 16px;
+margin-left: 8px !important;
+}
+
+
+.tslider blockquote p{
+	      font-family: 'Titillium Web', sans-serif;
+font-weight: 300 !important;
+line-height: 1.8 !important;
+font-size: 18px !important;
+color: black !important;
+
+}
+
+
+.tslider .cbp-qtcontent img {
+max-width: 20% !important;
+margin-left: 2em !important;
+}
+
+.opening-content p{
+      font-family: 'Titillium Web', sans-serif;
+font-weight: 300 !important;
+font-size: 18px !important;
+	margin-top: 20px !important;
+	margin-bottom: 25px !important;
+	line-height: 2.0 !important;
+}
+
+
+.testimonial-class h1{
+      font-family: 'Titillium Web', sans-serif;
+font-weight: 600 !important;
+font-size: 38px !important;	
+}
+
+hr{
+    width: 120px !important;
+    border-width: 4px !important;
+    border-top: 5px solid #B388FF !important;
+}
+
+
+
+#form-input{
+      font-family: 'Titillium Web', sans-serif;
+   width: 50% !important;	
+   border-radius: 2px !important;	
+   padding: 5px !important;	
+  height: 48px !important;	
+  background-color: White !important;	
+  border: 1px solid Black !important;	
+    font-size: 16px !important;	
+    font-weight: 400 !important;	
+    color: Black !important;	
+}
+
+#text-input{
+      font-family: 'Titillium Web', sans-serif;
+    width: 50% !important;	
+   border-radius: 2px !important;	
+   padding: 10px !important;	
+  height: 240px !important;	
+  background-color: White !important;	
+  border: 1px solid Black !important;	
+    font-size: 16px !important;	
+    font-weight: 400 !important;	
+    color: Black !important;	
+}
+
+#submit-btn{
+    width: 180px !important;	
+  height: 40px !important;	
+  background-color: #2196f3 !important;	
+      font-family: 'Titillium Web', sans-serif;
+    font-size: 16px !important;	
+    font-weight: 400 !important;	
+    color: White !important;	
+    border: 0px !important;	
+}
+.learnmore-Btn{
+  width: 120px;
+  height: 40px;
+  background-color: Blue;
+      font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: White;
+    border: 0px;
+}
+.thumb{
+	width:420px !important;	
+	height: 440px !important;	
+	margin-left: 40px !important;	
+}
+.date-posts{
+      font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px !important;	
+}
+
+.excerpt-read{
+color: black !important;
+text-decoration: none !important;
+}
+
+.metaslider .caption-wrap{
+	background-color: #1565c0 !important;
+	opacity: none!important;
+}
+
+h2{
+	 font-family: 'Titillium Web', sans-serif !important;	
+    font-size: 32px!important;	
+    font-weight: 600 !important;	
+    margin-bottom: 30px !important;	
+}
+.footer{
+background-color: rgb(0,0,0);
+	 font-family: 'Titillium Web', sans-serif !important;	
+    font-size: 18px!important;	
+    color: white !important;
+    font-weight: 300;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:40px;
+}
+blockquote{
+	margin-top: 40px !important;	
+	margin-bottom: 40px !important;	
+}
